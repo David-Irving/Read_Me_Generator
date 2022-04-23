@@ -112,3 +112,13 @@ const questions = () => {
     ]);
 };
 
+const writeFile = data => {
+    fs.writeFile('README.md', data, err => {
+        if (err) {
+            console.log(err);
+            return;
+        } else {
+            console.log("Your README has been created.")
+        }
+        })
+    }
