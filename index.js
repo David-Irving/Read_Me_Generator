@@ -1,7 +1,7 @@
 const fs = require(`fs`);
 const inquirer = require(`inquirer`)
 
-const generatePage = require(`./generateMD.js`);
+const generatePage = require(`./generateMarkdown`);
 
 const questions = () => {
     return inquirer.prompt([
@@ -121,4 +121,12 @@ const writeFile = data => {
             console.log("Your README has been created.")
         }
         })
-    }
+    };
+
+questions ()
+.then(answers => {
+    return generatePage(answers);
+})
+.then(data => {
+    console.log(err)
+})
