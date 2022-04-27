@@ -50,3 +50,7 @@ GIVEN a command-line application that accepts user input
 * https://github.com/David-Irving/Read_Me_Generator
 
 ### App Preview
+
+
+https://user-images.githubusercontent.com/99232675/165416023-3feddd7c-c31c-4741-8107-2a7a7311bfce.mp4
+
