@@ -1,7 +1,7 @@
 const fs = require(`fs`);
 const inquirer = require(`inquirer`)
 
-const generatePage = require(`./generateMarkdown`);
+const generatePage = require(`./generateMarkdown.js`);
 
 const questions = () => {
     return inquirer.prompt([
@@ -14,7 +14,7 @@ const questions = () => {
                     return true;
                 }   else {
                     console.log("Please enter your username.");
-                    return false;
+                    return false;``
                 }
             }
         },
@@ -128,5 +128,8 @@ questions ()
     return generatePage(answers);
 })
 .then(data => {
+    return writeFile(data);
+})
+.catch(err => {
     console.log(err)
 })
