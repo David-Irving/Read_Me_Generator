@@ -14,7 +14,7 @@ const questions = () => {
                     return true;
                 }   else {
                     console.log("Please enter your username.");
-                    return false;``
+                    return false;
                 }
             }
         },

@@ -16,16 +16,16 @@
   undefined
 
   ## Usage
-  generates a read me
+  generates readme
 
   ## License
   This project is using MIT
 
   ## Contributing
-  it is still in progress
+  still in progress
 
   ## Tests
   NPM test
 
   ## Questions
-  If you have any questions, feel free to email me at david.joseph.irving@gmail.com
+  If you have any questions, feel free to email me at djirving84@gmail.com
